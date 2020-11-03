@@ -5,9 +5,9 @@ def reverse_each_word(sentence)
   sentence1 = sentence1.to_a
   sentence2 = sentence2.to_a
   
-  sentence.reverse_each ||
-  puts sentence
-  
+  sentence.reverse_each |sentences|
+  puts sentences
+end
   
   
   
