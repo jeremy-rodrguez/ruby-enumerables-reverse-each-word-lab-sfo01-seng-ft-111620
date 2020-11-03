@@ -1,9 +1,10 @@
 sentence1 = "Hello there, and how are you?"
 sentence2 = "Hi again, just making sure it's reversed!"
 
-def reverse_each_word(string)
-  string.to_a.reverse_each {|v| p v}
-end
+def reverse_each_word(sentence)
+  sentence1 = sentence1.to_a
+  sentence2 = sentence2.to_a
+  
   
   
   
